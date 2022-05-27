@@ -6,4 +6,5 @@ from Proyecto_1.views import saludo
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludo/', saludo),
+    path('segundavista/', saludo),
 ]
